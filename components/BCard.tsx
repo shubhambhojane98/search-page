@@ -28,7 +28,7 @@ const BCard = ({
   comments,
 }: Blog) => {
   return (
-    <Card className="mb-2 flex flex-col justify-between">
+    <Card className="mb-2 flex flex-col justify-between transition-transform transform hover:scale-105 hover:shadow-lg">
       <Image
         src={image}
         alt="img"
